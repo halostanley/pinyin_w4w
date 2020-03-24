@@ -1,0 +1,2 @@
+# cnpinyin
+python scrapy

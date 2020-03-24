@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+    {% for acticle in acticles %}
+    <div class="post">
+            <h1><a href="{{acticle['link']}}" target='_blank'>{{ acticle['title'] }}</a></h1>
+            <h2>{{ acticle['title_pinyin'] }}</h2>
+            <h2>{{ acticle['title_with_pinyin'] |safe }}</h2>
+        <hr><br>
+    </div>
+    {% endfor %}
+{% endblock %}

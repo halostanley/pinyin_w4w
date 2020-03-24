@@ -1,0 +1,39 @@
+@media (min-width:768px){.container{width:100%}}
+@media (min-width:992px){.container{width:70%}}
+@media (min-width:1200px){.container{width:50%}}
+body,html{width:100%;font-size:18px;color:#4d4d4d;font-family:'Noto Serif SC',serif}
+a{text-decoration:none;color:#404040}
+a:hover{text-decoration:none}
+.col-md-auto{margin-bottom:4%}
+.container{border:0 solid #ddd;margin-top:3%;padding:3%;height:100%;margin:0 auto}
+.per-search{display:inline-block;border:1px solid #ddd;padding:.7em;margin:.1em}
+.block-1{font-size:.8em}
+.block-2{font-size:1.3em}
+#custom-search-input{padding:3px;border:solid 1px #E4E4E4;border-radius:6px;background-color:#fff}
+#custom-search-input input{border:0;box-shadow:none}
+#custom-search-input button{margin:2px 0 0 0;background:none;box-shadow:none;border:0;color:#666;padding:0 8px 0 10px;border-left:solid 1px #ccc}
+#custom-search-input button:hover{border:0;box-shadow:none;border-left:solid 1px #ccc}
+#custom-search-input .glyphicon-search{font-size:23px}
+#tab1,#tab2,#tab3,#tab4{width:25%;float:left}
+.col-md-4{width:33%;float:left;margin-top:.3em}
+.tab2-row{text-align:center;margin:3px}
+.one{border:1px solid #ddd}
+.upper{font-size:1.6em}
+.lower{font-size:.7em}
+.glyphicon-menu-hamburger{font-size:50px}
+.alert-success,.alert-warning{margin-top:1em}
+.search-table-wrap{margin-top:.5em}
+
+.pinyin_hint{color:red;font-size: 1.2em;}
+.loop_index{}
+
+.base-nav-tab{
+    border: 1px solid #000;
+    background-color: #404040;
+    border-radius: 50px;
+    text-align: center;
+}
+.base-nav-tab a{
+    font-size: 2em;
+    color: white;
+}

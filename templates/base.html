@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pinyin跟读</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="看字学拼音">
+    <meta name="keywords" content="拼音 pinyin 普通话 putonghua">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC&display=swap" rel="stylesheet">
+    <script defer type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script defer type="text/javascript" src="../static/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        let selectedTab = window.location.hash;
+        $('.nav[href="' + selectedTab + '"]' ).trigger('click');
+    })
+    </script>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="nav">
+            <ul class="nav">
+                <div class="base-nav-tab">
+                    <a href="/acticles">Rh</a> <a>/</a>
+                    <a href="/tech">科技</a> <a>/</a>
+                    <a href="/finance">财经</a> <a>/</a>
+                    <a href="/ent">娱乐</a>
+                </div>
+
+            </ul>
+        </div>
+
+        {% block content %}
+        {% endblock %}
+    </div>
+</body>
+</html>
